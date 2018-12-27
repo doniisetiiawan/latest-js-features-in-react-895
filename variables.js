@@ -1,5 +1,5 @@
 // can declare a global variable
-var name = 'Carlos Santana';
+var name = "Carlos Santana";
 
 // cannot be a global
 let age = 30;
