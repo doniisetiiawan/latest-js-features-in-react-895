@@ -1,2 +1,5 @@
-const pi = 3.1416;
-pi = 5; // Uncaught TypeError: Assignment to constant variable.
+const cryptoCurrencies = ["BTC", "ETH", "XRP"];
+
+cryptoCurrencies.push("ERT");
+cryptoCurrencies.shift();
+cryptoCurrencies[1] = "LTC";
